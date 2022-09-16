@@ -3,23 +3,37 @@ html {
   background-size: cover;
 
 }
-body{margin: 25px auto;
-text-align: center;
-background-color: rgba(255,255,255, 0.4);
-width: 600px;
-padding: 50px 0 0;
-border-radius: 25px;}
-
+body{
+    margin: 25px auto;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.4);
+    width: 600px;
+    padding: 50px 0 0;
+    border-radius: 25px;
+}
 .img-container{
     padding-top: 50px 0;
 }
 
-h1, h2{
-    font-family: Papyrus;
-}
 div{
     background-color: rgb(72, 116, 63, 0.6);
     color: white;
-padding: 20px 0;
-border-radius: 0 0 25px 25px;
+    padding: 20px 0;
+    border-radius: 0 0 25px 25px;
+}
+
+h1 {
+    margin: 40px 0;
+    font-family: Papyrus;
+}
+
+button {
+    background-color: rgb(72,116,63,) ;
+    
+}
+
+input {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
 }
